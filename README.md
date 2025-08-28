@@ -1,8 +1,22 @@
-# Learning SQL Programming
-This is the repository for the LinkedIn Learning course Learning SQL Programming. The full course is available from [LinkedIn Learning][lil-course-url].
+# Intro
 
-![Learning SQL Programming][lil-thumbnail-url] 
-Structured Query Language (SQL) is a common tool for retrieving data from relational databases such as SQL Server, MySQL, MariaDB, and PostgreSQL. This course provides an introduction to this core programming language. Learn how to request data from a database, limit and sort the responses, aggregate data from multiple tables with joins, and edit and delete data. Instructor Scott Simpson also shows how to perform simple math operations and transform data into different formats.
+Quiz Database has two tables:
+-  People: name, quiz score, participation gift, and other data
+-  States: Abbreviations, names, and other information about the 50 US states
+
+# GitHub Codespaces
+It's a browser-based interactive environment
+
+1. On the repository, click Code > Codespaces > Create codespace on main
+<img width="371" height="313" alt="Screenshot 2025-08-28 at 15 53 01" src="https://github.com/user-attachments/assets/a77b974d-1a8d-4e6e-9411-ed0a08590d4f" />
+
+2.  On Codespace, install SQLite Viewer
+3. Use Cmd Shift P > sqlite to run the queries
+
+# DB Browser for SQLite
+
+https://sqlitebrowser.org/dl/
+
 
 ## Learning objectives
 - Name the predicate of the following statement: SELECT EyeColor, Age FROM Student WHERE FirstName = 'Tim' ORDER BY LastName ASC;
@@ -17,12 +31,6 @@ Structured Query Language (SQL) is a common tool for retrieving data from relati
 This repository has one MAIN branch for the course.
 
 ### Instructor
-
 **Scott Simpson**
-
-_Creating technology courses as an author at LinkedIn_
-
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/scott-simpson?u=104).
-
 [lil-course-url]: https://www.linkedin.com/learning/learning-sql-programming-8382385
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875059/2875059-1615828190111-16x9.jpg
